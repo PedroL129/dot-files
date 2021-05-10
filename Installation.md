@@ -42,13 +42,17 @@ Make a GPT partition
 
 `swapon /dev/sda2`
 
-### /
+### Root
 
 `mkfs.ext4 /dev/sda3`
 
 ## Mount
 
 `mount /dev/sda3 /mnt`
+
+`mkdir /boot`
+
+`mount /dev/sda1 /boot/`
 
 ## Intallation base
 
@@ -122,13 +126,9 @@ Uncomment the line `%wheel ALL=(ALL) ALL` and all the users on the group `wheel`
 
 ## GRUB
 
-`pacman -S grub efibootmgr dosfstools os-prober mtools`
+`pacman -S grub efibootmgr`
 
-`mkdir /boot/EFI`
-
-`mount /dev/sda1 /boot/EFI`
-
-`grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck` 
+`grub-install /dev/sda --target=x86_64-efi --efi-directory=/boot` 
 
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
