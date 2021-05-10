@@ -1,2 +1,3 @@
-# ArchWiki
-Wiki for Arch Linux Distro
+# DotFiles
+
+Wiki for Arch Linux Distro, window managers and configurations
