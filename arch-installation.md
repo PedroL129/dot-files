@@ -82,6 +82,12 @@ Uncomment the line `es_ES.UTF-8 UTF-8`
 
 `locale-gen`
 
+## Keymap
+
+`nano /etc/vconsole.conf`
+
+KEYMAP=es
+
 ## Hostname
 
 `nano /etc/hostname`
