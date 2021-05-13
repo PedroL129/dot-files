@@ -132,7 +132,7 @@ Uncomment the line `%wheel ALL=(ALL) ALL` and all the users on the group `wheel`
 
 ## GRUB
 
-`pacman -S grub efibootmgr`
+`pacman -S grub efibootmgr os-prober`
 
 `grub-install /dev/sda --target=x86_64-efi --efi-directory=/boot` 
 
