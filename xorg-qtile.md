@@ -17,3 +17,7 @@ nitrogen --restore &
 picom &
 exec qtile
 ```
+
+## Impornant
+
+If instead of letters you see squares ■, you need to install a font
