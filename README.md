@@ -7,8 +7,7 @@ Wiki for Arch Linux Distro, window managers and configurations
 
 ## Next Steps
 
-1. Customize Grub menu
-2. Rofi
-3. Dunst
-4. Zsh
-5. Customize QTile
+1. Rofi
+2. Dunst
+3. Zsh
+4. Customize QTile
