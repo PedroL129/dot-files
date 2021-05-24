@@ -11,6 +11,7 @@ Wiki for Arch Linux Distro, window managers and configurations
 - Rofi
 - Dunst
 - QTile
+- Kitty
 
 ## Next Steps
 
